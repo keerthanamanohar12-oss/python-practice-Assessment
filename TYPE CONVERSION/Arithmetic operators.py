@@ -1,0 +1,14 @@
+Sum, Difference, Product, Division and Modulo :
+
+numbers = input().split()
+a = int(numbers[0])
+b = int(numbers[1])
+print(a+b)
+print(a-b)
+print(a*b)
+print(int(a/b))
+if a<0 or b<0:
+  c=abs(a)%abs(b)
+  print(-1*c)
+else:
+  print(a%b)
